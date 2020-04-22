@@ -1,0 +1,76 @@
+Dependencies for Project 'FIre_RT-Thread', Target 'Target 1': (DO NOT MODIFY !)
+F (..\User\main.c)(0x5E39050D)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5D2590B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5BBD6B7A)
+F (..\User\rtconfig.h)(0x5E367335)()
+F (..\rtthread\3.0.3\libcpu\arm\cortex-m3\cpuport.c)(0x5E2FE08C)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+F (..\rtthread\3.0.3\libcpu\arm\cortex-m3\cortext_rvds.s)(0x5E315065)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\listings\cortext_rvds.lst --xref -o .\objects\cortext_rvds.o --depend .\objects\cortext_rvds.d)
+F (..\rtthread\3.0.3\src\thread.c)(0x5E37FE70)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\scheduler.c)(0x5E37D7C0)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\object.c)(0x5E329D71)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\kservice.c)(0x5E352A1B)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+F (..\rtthread\3.0.3\src\idle.c)(0x5E37F9A3)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\idle.o --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\clock.c)(0x5E37FAD8)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\irq.c)(0x5E350F0E)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\rtthread\3.0.3\src\timer.c)(0x5E37BFD6)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\rtthread\3.0.3\include\rtthread.h)(0x5E38FE01)
+I (..\rtthread\3.0.3\include\rtdef.h)(0x5E37F7AD)
+I (..\User\rtconfig.h)(0x5E367335)
+I (..\rtthread\3.0.3\include\rtservices.h)(0x5E354943)
+I (..\rtthread\3.0.3\include\rthw.h)(0x5E32940A)
+F (..\Doc\readme.txt)(0x5DBE5A35)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x5C8B5FFA)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x5DBE5C14)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\rtthread\3.0.3\bsp -I ..\rtthread\3.0.3\components\finsh -I ..\rtthread\3.0.3\include -I ..\rtthread\3.0.3\include\libc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5D2590B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5BBD6B7A)
